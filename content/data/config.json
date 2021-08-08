@@ -71,5 +71,6 @@
             }
         ]
     },
-    "domain": "https://adorable-triceratops-f70ec.netlify.app"
+    "domain": "https://adorable-triceratops-f70ec.netlify.app",
+    "favicon": "/images/robust-plankton.png"
 }
