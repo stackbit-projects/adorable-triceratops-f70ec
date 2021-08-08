@@ -57,11 +57,7 @@ export default class Header extends React.Component {
                         <div className="navbar__logo">
                             <Link href={withPrefix('/')}><img src={withPrefix(logo)} alt={logoAlt} /></Link>
                         </div>
-                    ) : (
-                        <div className="navbar__title">
-                            <Link href={withPrefix('/')}>{title}</Link>
-                        </div>
-                    )}
+                    ) : }
                     {hasNav && !_.isEmpty(navLinks) && (
                         <React.Fragment>
                             <button id="navbar__open" className="navbar__toggle" ref={this.menuOpenRef} onClick={this.handleMenuToggle.bind(this)}>
