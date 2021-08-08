@@ -59,7 +59,7 @@ export default class Header extends React.Component {
                         </div>
                     ) : (
                         <div className="navbar__title">
-                            <Link href={withPrefix('/')}>{title}</Link>
+                            <Link href={withPrefix('/')}><img src={withPrefix(logo)} alt={logoAlt} /></Link>
                         </div>
                     )}
                     {hasNav && !_.isEmpty(navLinks) && (
